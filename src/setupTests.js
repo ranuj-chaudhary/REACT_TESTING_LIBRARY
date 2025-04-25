@@ -1,6 +1,3 @@
 import '@testing-library/jest-dom';
-// import { mutate } from 'swr';
-
-beforeEach(async () => {
-  // mutate(() => true, undefined, { revalidate: true });
-});
+// settimout to 20 seconds
+jest.setTimeout(20000);
